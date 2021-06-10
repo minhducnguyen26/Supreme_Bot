@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#background_image{
+    height: 60px;
+    width: 100%;
+    background-image: url(Supreme_logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 15px 0;
+}
+
+.content{
+    margin: 0px 10px 15px;
+}
+
+p{
+    color: grey;
+    text-align: center;
+}
+
+p a:visited {
+    color: grey;
+}
+
+.content label{
+    display: block;
+    text-align: left;
+    color: darkslategrey;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.content input{
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.button{
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 33.3% 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+button a:visited{
+    color: #FFFFFF;
+}
+
+select {
+    width: 100%;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#hide {
+    display: none;
+}
